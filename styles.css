@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+#wrapper{
+    width: 40rem;
+    margin: 2rem auto;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#page-banner{
+    width: auto;
+    margin: 0 auto;
+
+}
+
+#wrapper header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: gray;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#wrapper header #page-banner h1{
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+#wrapper header #page-banner p{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+header #page-banner form{
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+}
+
+header #page-banner form input{
+    width: 100%;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+}
+
+#book-list{
+    padding: 1.5rem;
+}
+
+ul li{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem;
+    align-items: center;
+    border-left: 4px solid rgb(223, 181, 181);
+    margin: 1.5rem 0.9rem;
+    font-size: 18px;
+}
+
+#book-list .delete{
+    background-color: rgb(0, 0, 0);
+    padding: 0.5rem;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+#wrapper #add-book{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#wrapper #add-book input{
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    width: 70%;
+    outline: none;
+    font-size: 1rem;
+    
+}
+
+#wrapper #add-book button{
+    padding: 0.5rem;
+    font-size: 17px;
+    margin-bottom: 2rem;
+    width: 30%;
+    background-color: blueviolet;
+    outline: none;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
